@@ -136,3 +136,20 @@ form button:hover {
     margin: 0.5rem 0 0 0;
     color: #555;
 }
+
+.menu-links {
+  display: flex;
+  flex-direction: column;
+  
+  @media only screen and (min-width: 720px) {
+    flex-direction: row;
+  }
+}
+  
+.menu-links > li {
+  margin-bottom: 12px;
+  
+  @media only screen and (min-width: 720px) {
+    margin-bottom: 0px;
+  }
+}
